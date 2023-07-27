@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <form class="box">
+        <p>Convert Temperature</p>
+    <div class="box1">
+        <div class="box2">
+            <label for="from">From : </label><br>
+            <label for="to">To : </label><br>
+            <label for="num">Value : </label><br>
+            <label for="result">Result : </label>
+        </div>
+        <div class="box3"> 
+        <select name="" id="from">
+            <option value="no_select">Select</option>
+            <option value="celsius">Celsius (°C)</option>
+            <option value="fahrenheit">Fahrenheit (°F) </option>
+            <option value="kelvin">Kelvin (K)</option>
+        </select><br>
+        <select name="" id="to">
+            <option value="no_select">Select</option>
+            <option value="celsius">Celsius (°C)</option>
+            <option value="fahrenheit">Fahrenheit (°F) </option>
+            <option value="kelvin">Kelvin (K)</option>
+        </select><br>
+        <input type="number" id="num">
+        <div id="result"></div>
+        </div>
+    </div>
+    <div>  
+        <input type="button" value="Convert" id="con" onclick="convertFunction()">
+        <input type="reset" value="Clear" id="res" onclick="clean()" >
+    </div>
+    <div class="credit">
+        <p>Designed By ~ <strong>Goutam Patidar</strong></p>
+    </div>
+</form>
+</body>
+</html>

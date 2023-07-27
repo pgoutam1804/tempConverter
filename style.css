@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    justify-content: center;
+    background-image: url(./images/f3a766f6e4_50151854_chaleur-temperature-mimacz-fotolia.jpg);
+    background-size:100vw 100vh;
+    background-repeat: no-repeat;
+}
+.box{
+    width: 400px;
+    height: 370px;
+    margin: 187px;
+    margin-right: 563px;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    background-image: linear-gradient(to left,red,yellow);
+}
+p{
+    width: 380px;
+    height: 45px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bold;    
+}
+.box1{
+    display: flex;
+    justify-content: space-around;
+    line-height: 45px;
+}
+.box2{
+    padding-left: 30px;
+}
+#from,#to,#num,label{
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+}
+div #result{
+    margin-top: 2px;
+    width: 200px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 22px;
+    overflow:hidden;
+    text-align: left;
+    justify-content: center;
+    background-color: white;
+}
+#con,#res{
+    width: 90px;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.credit p{
+    font-size: 18px;
+    text-align: right;
+
+}
